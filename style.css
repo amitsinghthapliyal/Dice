@@ -1,0 +1,126 @@
+#winner{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#member{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+    padding: 30px;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+}
+
+#member-1{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+#member-2{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+#member-3{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+#roll{
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    color: teal;
+    border: 2px solid teal;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#roll:hover{
+    color: white;
+    background-color: teal;
+}
+
+/*  */
+.green{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    background-color: green;
+    color: white;
+}
+
+.yellow{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    background-color: yellow;
+    color: white;
+}
+
+.red{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+}
+
+.blue{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    #member{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3;
+        gap: 40px;
+        padding: 30px;
+        height: 200px;
+        width: 50%;
+        margin: auto;
+    }
+
+    #roll{
+        font-size: 20px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        color: teal;
+        border: 2px solid teal;
+        border-radius: 5px;
+        margin-left: 27%;
+        margin-top: 50%;
+        margin-bottom: 100px;
+    }
+
+  }
